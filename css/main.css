@@ -19,3 +19,31 @@ html {
 body {
   margin: 0;
 }
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+article:first-child h2 {
+  font-family: "Rammetto One", cursive;
+}
+
+article:nth-child(2) h2 {
+  font-family: "Gravitas One", cursive;
+}
+
+article:nth-child(3) h2 {
+  font-family: Comfortaa, cursive;
+}
+
+article:first-child {
+  background-color: #e97065;
+}
+
+article:nth-child(2) {
+  background-color: #fbd25e;
+}
+
+article:nth-child(3) {
+  background-color: #e86033;
+}
